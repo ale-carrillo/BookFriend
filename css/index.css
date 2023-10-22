@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', cursive I !important;
+    font-size: 20px;
+}
+
+header {
+    background-color: black; /* Color de fondo del encabezado */
+    color: white; /* Color del texto del encabezado */
+    height: 80px;
+    padding: 15px;
+    text-align: center;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0px 0px 20px 6px white;
+
+    
+}
+
+.menu-icon img, .book-icon img{
+    cursor: pointer;
+    width: 16%; /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+}
+
+
+.fondo{
+    background-color: white;
+    max-width: 100%;
+    width: auto;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 0%;
+}
+
+.tituloLetras{
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 2;
+    color: white;
+}
+
+.tituloLetrasT{
+    margin-left: 50px;
+    margin-right: 50px;
+    z-index: 2;
+    color: black;
+}
+
+
+.main-title {
+    font-size: 80px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.line {
+    border-bottom: 6px solid #7B7B7B; /* Color de la línea */
+    display: block; /* Hace que el contenedor abarque solo el contenido y no el ancho completo del contenedor padre */
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fondo1{
+    background-image: url("../images/principal.jpg");
+    max-width: 100%;
+    width: auto;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 0%;
+  }
+
+.fondo1 .tituloLetras{
+    font-size: 50px;    
+}
+
+.fondo2{
+    background-color: #ffffff;
+    max-width: 100%;
+    width: auto;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 0%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card{
+  position : relative;
+	height: 350px;
+	/* width: 900px; */
+	margin : 100px auto;
+	background-color : #FFF;
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.card h5{
+	position : absolute;
+	left : 20px;
+	bottom : 100px;
+	font-size : 6rem;
+	color : #C3C3C3;   
+}
+
+
+.card h6{
+	position : absolute;
+	left : 30px;
+	bottom : 80px;
+	font-size : 2rem;
+	color : #C3C3C3;   
+}
+
+.card img{
+  position: absolute;
+	left: 50%;
+	top: 50%;
+	height: auto;
+	width: 100%;
+	-webkit-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.tituloCard{
+	margin-left : 250px;
+	margin-right : 20px;
+  margin-top: -260px;
+}
+
+/* Those futur buttons */
+ul{
+	margin-left : 5px;
+}
+
+li{
+	display: inline;
+	list-style: none;
+	padding-right: 20px;
+	color : #7B7B7B;
+}
+
+/* Para centrar la imagen */
+.imagen {
+	float : left;
+	position : relative ;
+	left : 25px;
+	top : -25px;
+	height : 280px;
+	width : 180px;
+	box-shadow: 10px 0px 0px 0px rgba(0,0,0,0.1);
+	overflow: hidden    
+}
+
+.separator{
+    margin-top : 10px;
+    border : 1px solid #C3C3C3;
+}
+
+.fondo3{
+    background-image: url("../images/fondo3.jpg");
+    max-width: 100%;
+    width: auto;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-top: 0%;
+}
+
+footer section{
+    background-color: #f1f1f1;
+}
+
+.tituloLetrasF{
+  margin-left: 50px;
+  margin-right: 50px;
+  z-index: 2;
+  color: black;
+}
+
+footer img{
+  height: 50px;
+  width:  50px;
+}

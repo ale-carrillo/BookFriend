@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comfortaa">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <title>BookFriend</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon"  type="image/png" href="./images/book_icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="book-icon">
+            <img src="./images/book_icon.png" alt="Fotografía de usuarixs">
+        </div>
+        <h1>BookFriend</h1>
+        <div class="menu-icon">
+            <img src="./images/menu.png" alt="Puntitos">
+        </div>
+    </header>
+
+    <main>
+
+        <div class="fondo">
+            <br><br><br><br><br><br>
+            <div class="tituloLetrasT">
+                <div class="d-flex justify-content-between">
+                    <div class="col text-start">
+                        <h1 class="main-title">Welcome</h1>
+                    </div>
+                    <div class="text-end d-flex align-items-end">
+                        <h3>R E S E Ñ A S  D E  L I B R O S</h3>  
+                    </div>
+                  </div>     
+                <p class="line"></p>
+            </div>
+            <br>
+        </div>
+
+        <div class="fondo1">            
+            <br><br><br>
+            <div class="tituloLetras">
+                <p>Presiona un género para ver las mejores reseñas de libros</p>                
+            </div>
+
+            <br>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/terror.jpg" class="d-block w-50 mx-auto my-4" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>T E R R O R</h5>
+                        <p>"Los mounstruos y los fantasmas son reales, viven dentro de nosotros... y aveces ganan"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/romance.jpg" class="d-block w-50 mx-auto my-4" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>R O M A N C E</h5>
+                        <p>"Las palabras nunca alcanzan cuando lo que hay que decir desborda el alma"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/ciencia.jpg" class="d-block w-50 mx-auto my-4" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>C I E N C I A  F I C C I O N</h5>
+                        <p>"Las historias de imaginación tienden a molestar a aquellos que no la tienen"</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/harry.jpg" class="d-block w-50 mx-auto my-4" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>H A R R Y  P O T T E R</h5>
+                        <p>Draco dormiens nunquam titillandus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+ 
+            <br><br><br><br><br><br>
+        </div>
+
+        <div class="fondo2">
+            <div class="tituloLetrasT">
+                <br><br>
+                <h1>Reseñas recientes</h1>
+                
+                    <div class="row justify-content-evenly">
+                        <div class="col">
+                            <div class="card">
+                                <div class="imagen">
+                                    <img class="left" src="./images/nuevas/Misterio.jpg" alt="imagen Image">
+                                </div>
+                                <div class="tituloCard">
+                                    <h1>El misterio de Salem's Lot</h1>
+                                    <div class="separator"></div>
+                                    <p>Hace tiempo que tenía esta reseña en el tintero por lo que hoy me voy a poner las pilas para terminarla y darles mi humilde opinión de uno de los primeros trabajos de un autor maravilloso como es Stephen King. El misterio de Salem’s Lot fue su segunda obra, tras el brillante debut de Carrie, y también fue el segundo libro que se leyó en el club Saldando Pendientes. Es por esto que decidí volver a King y avanzar en mi viaje hacia la Torre Oscura con este libro del que por suerte no conocía mucho....</p>
+                                    <br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <h5>12</h5>
+                                <h6>JANUARY</h6>
+                                <ul>
+                                    <li><i class="fa fa-eye fa-2x"></i></li>
+                                    <li><i class="fa fa-heart-o fa-2x"></i></li>
+                                    <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                                    <li><i class="fa fa-share-alt fa-2x"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mx-5">
+                            <div class="card">
+                                <div class="imagen">
+                                    <img class="left" src="./images/nuevas/MilBesosTuyos.jpg" alt="imagen Image">
+                                </div>
+                                <div class="tituloCard">
+                                    <h1>Mil besos tuyos</h1>
+                                    <div class="separator"></div>
+                                    <p>Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in the British Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
+                                    <br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <h5>12</h5>
+                                <h6>JANUARY</h6>
+                                <ul>
+                                    <li><i class="fa fa-eye fa-2x"></i></li>
+                                    <li><i class="fa fa-heart-o fa-2x"></i></li>
+                                    <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                                    <li><i class="fa fa-share-alt fa-2x"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="imagen">
+                                    <img class="left" src="./images/nuevas/Biblioteca.jpg" alt="imagen Image">
+                                </div>
+                                <div class="tituloCard">
+                                    <h1>La biblioteca de medianoche</h1>
+                                    <div class="separator"></div>
+                                    <p>Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in the British Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
+                                    <br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <h5>12</h5>
+                                <h6>JANUARY</h6>
+                                <ul>
+                                    <li><i class="fa fa-eye fa-2x"></i></li>
+                                    <li><i class="fa fa-heart-o fa-2x"></i></li>
+                                    <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                                    <li><i class="fa fa-share-alt fa-2x"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+ 
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col">
+                            <div class="card">
+                                <div class="imagen">
+                                    <img class="left" src="./images/nuevas/Misterio.jpg" alt="imagen Image">
+                                </div>
+                                <div class="tituloCard">
+                                    <h1>D E S P U E S</h1>
+                                    <div class="separator"></div>
+                                    <p>Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in the British Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
+                                    <br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <h5>12</h5>
+                                <h6>JANUARY</h6>
+                                <ul>
+                                    <li><i class="fa fa-eye fa-2x"></i></li>
+                                    <li><i class="fa fa-heart-o fa-2x"></i></li>
+                                    <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                                    <li><i class="fa fa-share-alt fa-2x"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col mx-5">
+                            <div class="card">
+                                <div class="imagen">
+                                    <img class="left" src="./images/nuevas/MilBesosTuyos.jpg" alt="imagen Image">
+                                </div>
+                                <div class="tituloCard">
+                                    <h1>D E S P U E S</h1>
+                                    <div class="separator"></div>
+                                    <p>Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in the British Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
+                                    <br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <h5>12</h5>
+                                <h6>JANUARY</h6>
+                                <ul>
+                                    <li><i class="fa fa-eye fa-2x"></i></li>
+                                    <li><i class="fa fa-heart-o fa-2x"></i></li>
+                                    <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                                    <li><i class="fa fa-share-alt fa-2x"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="imagen">
+                                    <img class="left" src="./images/nuevas/Despues.jpg" alt="imagen Image">
+                                </div>
+                                <div class="tituloCard">
+                                    <h1>D E S P U E S</h1>
+                                    <div class="separator"></div>
+                                    <p>Magnesium is one of the six essential macro-minerals that is required by the body for energy production and synthesis of protein and enzymes. It contributes to the development of bones and most importantly it is responsible for synthesis of your DNA and RNA. A new report that has appeared in the British Journal of Cancer, gives you another reason to add more magnesium to your diet...</p>
+                                    <br><br><br><br><br><br><br><br><br><br><br>
+                                </div>
+                                <h5>12</h5>
+                                <h6>JANUARY</h6>
+                                <ul>
+                                    <li><i class="fa fa-eye fa-2x"></i></li>
+                                    <li><i class="fa fa-heart-o fa-2x"></i></li>
+                                    <li><i class="fa fa-envelope-o fa-2x"></i></li>
+                                    <li><i class="fa fa-share-alt fa-2x"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+ 
+                    </div>
+
+
+            </div>
+
+            <br><br><br>
+        </div>
+
+        <div class="fondo3">
+            <div class="tituloLetras">
+                <br><br><br>
+                <h1>Deja tu reseña</h1>
+                <br><br>
+                    <form>
+    
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control">
+                            <label for="validationTooltip01 floatingInput">Username</label>
+
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control">
+                            <label for="validationTooltip01 floatingInput">Libro</label>
+                        </div>
+    
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control">
+                            <label for="validationTooltip01 floatingInput">Autor</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control">
+                            <label for="validationTooltip01 floatingInput">Reseña</label>
+                        </div>
+
+                      <br>
+                      <button type="submit" class="button-30" role="button">Submit</button>
+                      <br><br><br>
+                    </form>
+                </div>                
+            </div>
+
+        </div>
+    </main>
+            
+        <!--------------------------------------------------------------------------------------------------->
+        <!-- F O O T E R-->
+
+
+
+        
+    <footer>
+        <section>
+            <div class="mx-4 text-center">
+                <div class="row">
+                    
+                    <div class="col my-4">
+                        <h5>
+                            BOOKFRIEND
+                        </h5>
+                        <p>
+                            Here you can use rows and columns to organize your footer
+                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit.
+                        </p>
+                    </div>
+                
+                    <div class="col my-4">
+                        <h5>CONTACT</h5>
+                        <p>Mexico, Mexico City, 123456</p>
+                        <p>bookfriend@gmail.com</p>
+                        <p>+ 01 234 567 88</p>
+                        <p>+ 01 234 567 89</p>
+                    </div>
+                
+                    <!-- Grid column -->
+                    <div class="col my-4">
+                        <h5>SIGN UP FOR NOTIFICATIONS</h5>
+                
+                        <div class="form-outline form-white mb-4">
+                            <input type="email" class="form-control" />
+                            <label class="form-label">Email address</label>
+                        </div>
+                
+                        <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+                    </div>
+                </div>
+            </div>            
+        </section>
+
+        <!-- Section: CopytituloCard -->
+        <div class="p-3 pt-0" style="background-color: rgba(0, 0, 0, 0.2);">
+            <br>
+            <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                <!-- CopytituloCard -->
+                <div class="p-3">
+                    © 2023 BookFriend
+                </div>
+                <!-- CopytituloCard -->
+                </div>
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                <!-- Facebook -->
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    class="text-white"
+                    role="button"
+                    ><img src="./icon/facebook.png" alt=""></i
+                    ></a>
+    
+                <!-- Twitter -->
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    role="button"
+                    ><img src="./icon/twitter.png" alt=""></a>
+    
+                <!-- Google -->
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    class="text-white"
+                    role="button"
+                    ><img src="./icon/google-mas.png" alt=""></i
+                    ></a>
+    
+                <!-- Instagram -->
+                <a
+                    class="btn btn-outline-light btn-floating m-1"
+                    class="text-white"
+                    role="button"
+                    ><img src="./icon/instagram.png" alt=""></i
+                    ></a>
+                </div>
+                <!-- Grid column -->
+            </div>
+        </div> 
+    </footer>
+
+       
+
+
+    
+    
+</body>
+</html>
