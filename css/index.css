@@ -98,7 +98,6 @@ header {
 .card{
   position : relative;
 	height: 350px;
-	/* width: 900px; */
 	margin : 100px auto;
 	background-color : #FFF;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
@@ -122,6 +121,14 @@ header {
 	color : #C3C3C3;   
 }
 
+.card h7{
+	position : absolute;
+	left : 350px;
+	bottom : 10px;
+	font-size : 2rem;
+	color : #C3C3C3;   
+}
+
 .card img{
   position: absolute;
 	left: 50%;
@@ -136,10 +143,9 @@ header {
 .tituloCard{
 	margin-left : 250px;
 	margin-right : 20px;
-  margin-top: -260px;
+    margin-top: -260px;
 }
 
-/* Those futur buttons */
 ul{
 	margin-left : 5px;
 }
@@ -169,7 +175,7 @@ li{
 }
 
 .fondo3{
-    background-image: url("../images/fondo3.jpg");
+    background-image: url("../images/fondd.gif");
     max-width: 100%;
     width: auto;
     background-attachment: fixed;
@@ -192,3 +198,42 @@ footer img{
   height: 50px;
   width:  50px;
 }
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+    border: none;
+  }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: rgba(202, 202, 202, 0.288);
+    width: 56px;
+    height: 56px;
+    transition: all 0.3s ease;
+  }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  .cta:hover:before {
+    width: 100%;
+  }
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  .cta:active {
+    transform: scale(0.96);
+  }
